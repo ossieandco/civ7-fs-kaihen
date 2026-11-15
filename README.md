@@ -21,7 +21,7 @@ exploit from [civ7-fs](https://github.com/HerXayah/civ7-fs) and Gezine's
 - **Retry console.** `kaihen-console.py` is a small menu: Enter runs an attempt,
   1 reinstalls the trigger save and restarts.
 - **For highest success rate** it seemed to prefer 'enable handheld boost mode',
-  and connect theconsole to power.
+  and connect the console to power.
 
 Timing changes, auto restart and console by [ossieandco](https://github.com/ossieandco).
 
