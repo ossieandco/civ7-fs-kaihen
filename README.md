@@ -20,6 +20,8 @@ exploit from [civ7-fs](https://github.com/HerXayah/civ7-fs) and Gezine's
   through the CivSwitch loader, so a failed run doesn't need the power button.
 - **Retry console.** `kaihen-console.py` is a small menu: Enter runs an attempt,
   1 reinstalls the trigger save and restarts.
+- **For highest success rate** it seemed to prefer 'enable handheld boost mode',
+  and connect theconsole to power.
 
 Timing changes, auto restart and console by [ossieandco](https://github.com/ossieandco).
 
