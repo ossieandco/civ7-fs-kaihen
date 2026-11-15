@@ -33,6 +33,7 @@ def run(command, cwd=None, env=None):
 
 def kaihen():
     env = dict(os.environ, NS2_WAVE_ATTEMPTS=WAVES)
+    env.setdefault("NS2_TRIGGER_SHIFT_NS", "-200000")
     code = run(["node", "engine/hen.cjs", IP, "--dir", KAIHEN_DIR], cwd=KAIHEN_REPO, env=env)
     print("\nkaiHEN exited with code %d." % code)
 
